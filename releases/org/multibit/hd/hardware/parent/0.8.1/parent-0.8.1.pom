@@ -61,7 +61,7 @@
     <!-- Use https://raw.github.com to provide a consistent result -->
     <repository>
       <id>mbhd-maven-release</id>
-      <url>https://raw.github.com/martin-lizner/mbhd-maven/master/releases</url>
+      <url>https://raw.github.com/bitcoin-solutions/mbhd-maven/master/releases</url>
       <releases/>
     </repository>
     <repository>
@@ -99,7 +99,6 @@
   <modules>
     <module>core</module>
     <module>trezor</module>
-    <module>keepkey</module>
   </modules>
 
   <profiles>
