@@ -32,14 +32,14 @@ entry into your parent POM:
 ### Internal instructions for creating maven repo
 * too lazy to write it elsewhere :-)
 
-1. Pull multibit-hardware project, do code changes if necessary
-2. Change version - e.g. ```<version>0.7.1</version>```
+1. Pull multibit-hardware project, do code changes specific to trezor-ssh-agent
+2. Change version - e.g. ```<version>0.8.1</version>```
   * core\pom.xml
   * pom.xml
   * trezor\pom.xml
 3. Do maven magic:
 ```
-mvn -DaltDeploymentRepository=release-repo::default::file:../../mbhd-maven/releases clean deploy
+mvn -DaltDeploymentRepository=release-repo::default::file:../mbhd-maven/releases clean deploy
 ```
 
 ### Credits
