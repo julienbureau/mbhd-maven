@@ -36,7 +36,7 @@ entry into your parent POM:
 2. Change version - e.g. ```<version>0.8.1</version>```
   * core\pom.xml
   * pom.xml - mbhd-maven-release repository should point to martin-lizner
-  * trezor\pom.xml - dont forget to change ref to core dependency as well
+  * trezor\pom.xml and keepkey\pom.xml - dont forget to change ref to core dependency as well
 3. Do maven magic:
 ```
 mvn -DaltDeploymentRepository=release-repo::default::file:../mbhd-maven/releases clean deploy
